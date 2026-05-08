@@ -26,18 +26,6 @@
         </div>
     </div>
 
-    <!-- Banner -->
-    <section id="banner">
-        <div class="banner-content">
-            <p class="banner-title">JB</p>
-            <button id="menu-button" onclick="toggleMenu()">
-                <div class="menu-icon"></div>
-                <div class="menu-icon"></div>
-                <div class="menu-icon"></div>
-            </button>
-        </div>
-    </section>
-
     <!-- Sidebar Menu -->
     <div id="sidebar-menu" class="sidebar hidden">
         <button class="closebtn" onclick="toggleMenu()">×</button>
@@ -79,14 +67,10 @@
             <span></span>
             <div class="content">
                 <div class="intro">
-                    <h1>Hello there!</h1>
-                    <p>Welcome to my portfolio!</p>
-                    <p>My name is Joe!</p>
-                    <p>I'm a</p>
-                    <p>Software Developer</p>
-                    <p>Website Developer</p>
-                    <p>UI/UX Designer</p>
-                    <p>Video Game Developer</p>
+                    <h1>Full Stack</br>Software Engineer</h1>
+                    <p>Turning ideas into</br>high-performance web applications.</p>
+                    <p>Designing and building mobile apps</br>people actually enjoy using.</p>
+                    <p>Bringing worlds to</br>life through game development.</p>
                 </div>
                 <a href="https://www.linkedin.com/in/joe-binns-1a51631a0/" target="_blank">Linkedin</a>
             </div>
@@ -96,121 +80,215 @@
 
     <!-- About Section -->
     <section id="about">
-        <div class="about-container">
+        <div class="about-card">
             <div class="about-image">
                 <img src="portrait.jpg" alt="Portrait of Joe Binns">
             </div>
-            <div class="about-text">
-                <p>
-                    I love exploring how technology can inspire and change the way we see and interact with the world.
-                    From publishing apps involving Ai fitness & workout generation, varios projects i completed during my bachelors degree,
-                    or creating video games everyone can enjoy. I want to help build tools that enable people to interact with
-                    technologies in an engaging yet simple way. Let's connect and chat about how i could help you with your next project!
-                </p>
-                <div class="about-links">
-                    <p>Email: <a href="mailto:joecravenbinns@gmail.com">joecravenbinns@gmail.com</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/joe-binns-1a51631a0/" target="_blank">ca.linkedin.com/in/joe-binns-1a51631a0</a></p>
-                    <p>Resume: <a href="resume.pdf" target="_blank">Click here for Resume PDF</a></p>
-                    <p>GitHub: <a href="https://github.com/Joe-Binns">https://github.com/Joe-Binns</a> </p>
+
+            <div class="about-content">
+                <p class="section-label">About Me</p>
+                <h2>Software Developer focused on web, mobile, and game development.</h2>
+
+                <div class="about-tiles">
+                    <div class="about-tile">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Built an AI-based fitness app</span>
+                    </div>
+
+                    <div class="about-tile">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Developed full-stack web applications</span>
+                    </div>
+
+                    <div class="about-tile">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Experience with Unity & Unreal Engine</span>
+                    </div>
+
+                    <div class="about-tile">
+                        <i class="fas fa-code"></i>
+                        <span>Strong background in JavaScript, C#, and APIs</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Technologies Section -->
     <section id="technologies">
-        <div class="technologies-container">
-            <div class="technologies-card">
-                <i class="fab fa-html5"></i>
+        <div class="tech-groups">
+            <!-- Web Dev -->
+            <div class="tech-group">
+                <h3>Web Development</h3>
+                <div class="tech-items">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Structured all web applications and layouts</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Built responsive designs and UI animations</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Core logic for dynamic and interactive features</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Built backend services and API endpoints</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Developed reusable UI components and state-driven interfaces</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-exchange-alt"></i>
+                        <span>REST APIs</span>
+                        <div class="skill-dots">●●●●○</div>
+                        <div class="skill-tooltip">Designed and integrated client-server communication</div>
+                    </div>
+                </div>
             </div>
-            <div class="technologies-card">
-                <i class="fab fa-css3-alt"></i>
+
+            <!-- Mobile -->
+            <div class="tech-group">
+                <h3>Mobile Development</h3>
+                <div class="tech-items">
+
+                    <div class="tech-item">
+                        <i class="fab fa-android"></i>
+                        <span>Android Studio</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Developed and tested native Android applications</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Flutter</span>
+                        <div class="skill-dots">●●●●○</div>
+                        <div class="skill-tooltip">Built cross-platform mobile apps from a single codebase</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-coins"></i>
+                        <span>RevenueCat</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Implemented subscriptions and in-app purchase systems</div>
+                    </div>
+                    
+                    <div class="tech-item">
+                        <i class="fas fa-fire"></i>
+                        <span>Firebase</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Handled authentication, Firestore database, and hosting</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>Supabase</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Backend services with PostgreSQL and real-time APIs</div>
+                    </div>
+                </div>
             </div>
-            <div class="technologies-card">
-                <i class="fab fa-js"></i>
+
+            <!-- Game Dev -->
+            <div class="tech-group">
+                <h3>Game Development</h3>
+                <div class="tech-items">
+
+                    <div class="tech-item">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Unity</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Created gameplay systems and interactive prototypes</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-cube"></i>
+                        <span>Unreal Engine</span>
+                        <div class="skill-dots">●●●●○</div>
+                        <div class="skill-tooltip">Developed combat systems and game mechanics</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-code"></i>
+                        <span>C#</span>
+                        <div class="skill-dots">●●●●○</div>
+                        <div class="skill-tooltip">Primary scripting language for Unity development</div>
+                    </div>
+                    
+                    <div class="tech-item">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Used for Unreal Engine logic and performance systems</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-running"></i>
+                        <span>Mixamo</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Applied character rigging and animation workflows</div>
+                    </div>
+                </div>
             </div>
-            <div class="technologies-card">
-                <i class="fab fa-react"></i>
-            </div>
-            <div class="technologies-card">
-                <i class="fab fa-node-js"></i>
-            </div>
-            <div class="technologies-card">
-                <img src="flutterLogoWhite.png">
-            </div>
-            <div class="technologies-card">
-                <i class="fab fa-java"></i>
-            </div>
-            <div class="technologies-card">
-                <img src="unityLogoWhite.png">
-            </div>
-            <div class="technologies-card">
-                <img src="unrealLogoWhite.png">
-            </div>
-            <div class="technologies-card">
-                <i class="fab fa-github"></i>
-            </div>
-            <div class="technologies-card">
-                <i class="fab fa-jira"></i>
-            </div>
-            <div class="technologies-card">
-                <i class="fab fa-figma"></i>
-            </div>
-            <div class="technologies-card">
-                <i class="fab fa-stripe-s"></i>
-            </div>
-        </div>
-    </section>
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="skills-container">
-            <div class="skill-card">
-                <div class="skillicon"><i class="fas fa-laptop-code"></i></div>
-                <h3>Website Developer</h3>
-                <p>I enjoy pushing myself by creating visually appealing websites that are user friendly & intuitive.</p>
-                <p><b>Things I enjoy developing:</b></p><p></p> E-commerce sites, Portfolio sites, Business pages</p>
-                <p><b>What I use:</b></p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Shopify</li>
-                    <li>Wordpress</li>
-                    <li>Node.js</li>
-                    <li>JSON</li>
-                    <li>Jquery</li>
-                    <li>Figma</li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <div class="skillicon"><i class="fas fa-mobile-alt"></i></div>
-                <h3>App Developer</h3>
-                <p>I love building mobile apps that help people solve real-world problems and enchance their lives.</p>
-                <p><b>Platforms I develop for:</b></p><p> iOS, Android</p>
-                <p><b>What I use:</b></p>
-                <ul>
-                    <li>Flutter</li>
-                    <li>Java</li><li> Supabase</li>
-                    <li>Firebase</li><li> SQLite</li>
-                    <li>REST APIs</li><li> Revenuecat</li>
-                    <li> Stripe</li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <div class="skillicon"><i class="fas fa-gamepad"></i></div>
-                <h3>Video Game Designer</h3>
-                <p>Growing up playing video games was always my passion, now creating them is.</p>
-                <p><b>Genres I work on:</b></p><p> FPS, RTS, Simulation</p>
-                <p><b>What I use:</b></p>
-                <ul>
-                    <li>Unity</li>
-                    <li>Unreal Engine</li>
-                    <li>C#</li>
-                    <li>C++</li>
-                    <li>Mixamo</li>
-                    <li>Blender</li>
-                    <li>Git</li>
-                    <li>JIRA</li>
-                </ul>
+
+            <!-- Tools -->
+            <div class="tech-group">
+                <h3>Tools & Other</h3>
+                <div class="tech-items">
+
+                    <div class="tech-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                        <div class="skill-dots">●●●●○</div>
+                        <div class="skill-tooltip">Used in academic projects and backend logic</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                        <div class="skill-dots">●●●●●</div>
+                        <div class="skill-tooltip">Version control and collaborative development</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Designed UI layouts and interactive prototypes</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Stripe</span>
+                        <div class="skill-dots">●●●○○</div>
+                        <div class="skill-tooltip">Integrated payment processing into applications</div>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fab fa-jira"></i>
+                        <span>JIRA</span>
+                        <div class="skill-dots">●●●●○</div>
+                        <div class="skill-tooltip">Managed tasks and agile development workflows</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -218,64 +296,171 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="projects-container">
-            <h2>Recent Projects</h2>
+            <div class="section-header">
+                <h2>Recent Projects</h2>
+                <p class="section-subtitle">A few projects that show my experience across AI, web development, mobile apps, and game development.</p>
+            </div>
+
             <div class="projects-list">
-                <div class="project-card">
-                    <h3>Emotion Detection Model</h3>
-                    <div class="date">
-                        <p>September 2023 - January 2024</p>
+                <div class="project-card project-card-wide">
+                    <div class="project-top">
+                        <div>
+                            <span class="project-badge">Capstone Project</span>
+                            <h3>AI-Powered Assistant</h3>
+                        </div>
+                        <i class="fas fa-robot project-icon"></i>
                     </div>
-                    <p>The project explored <b>machine learning</b> for emotion detection through <b>facial recognition</b>. It aimed to advance understanding of how to employ algorithms to interpret human emotions accurately from facial expressions. The project utilized 
-                    the FER2013 dataset to train a model capable of categorizing emotions</p>
-                    <p>My approach began with a RandomForestClassifier. After hyperparameter optimization with GridSearchCV, And finally Integrating PCA. A deep learning model 
-                    implemented with Keras significantly improved the accuracy to approximately 81.16%.</p>
-                    <h5>Sklearn, Keras, Tensorflow, FER2013 dataset</h5>
-                </div>
-                <div class="project-card">
-                    <h3>Course Showcase</h3>
-                    <div class="date">
-                        <p>May 2023 - September 2023</p>
+
+                    <p class="project-date">April 2025 - September 2025</p>
+
+                    <p class="project-summary">
+                        Full stack assistant integrating an AI model with structured data, focused on accuracy and real-world usability.
+                    </p>
+
+                    <ul class="project-points">
+                        <li>Integrated AI model with backend data systems</li>
+                        <li>Debugged incorrect outputs by validating against database records</li>
+                        <li>Resolved data inconsistencies impacting model accuracy</li>
+                        <li>Communicated issues and fixes to client with clear examples</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>AI Integration</span>
+                        <span>Databases</span>
+                        <span>Debugging</span>
+                        <span>Full-Stack</span>
+                        <span>Data Validation</span>
                     </div>
-                    <p>The Course Showcase is the ideal place for students and teachers to browse for new website templates. It's a centralized repository for showcasing, managing, and creating class templates.</p>
-                    <p><b>Interactive Previews:</b> Previews allow users to get a good idea of the look and feel of a template before selecting.</p>
-                    <p><b>Detailed Breakdown:</b> Well presented information on use cases and features of a template.</p>
-                    <p><b>Quick Start:</b> Easy access to download and start building with each template.</p>
-                    <h5>HTML, CSS, JavaScript, Wordpress</h5>
                 </div>
+
                 <div class="project-card">
-                    <h3>Flame Saber</h3>
-                    <div class="date">
-                        <p>October 2023 - December 2023</p>
+                    <div class="project-top">
+                        <div>
+                            <span class="project-badge">Mobile App</span>
+                            <h3>BodyFlow AI</h3>
+                        </div>
+                        <i class="fas fa-mobile-alt project-icon"></i>
                     </div>
-                    <p>An intense, fast-paced game set against a fiery volcanic backdrop, designed to challenge players with increasingly difficult AI-controlled waves. Players must master various combos and blocking strategies to survive.</p>
-                    <p><b>Intense Combat:</b> Fight through challenging waves of enemies using various combos, blocks and movement mechanics.</p>
-                    <p><b>Strategic Gameplay:</b> Use a variety of combat strategies to outmaneuver and defeat waves of enemies if you are to reach the end.</p>
-                    <p><b>Engaging Atmosphere:</b> Enjoy a game set against a dynamic and visually striking volcanic backdrop with dynamic enviroment elements.</p>
-                    <p><b>Cunning Enemies</b> Take out enemies fast before they surround you, overwhelm you with attacks or beat you with parries.</p>
-                    <h5>Unreal Engine 5.3</h5>
+
+                    <p class="project-date">January 2024 – Present</p>
+
+                    <p class="project-summary">
+                        AI-powered fitness app that creates personalized workout and nutrition plans for users on iOS and Android.
+                    </p>
+
+                    <ul class="project-points">
+                        <li>Built cross-platform mobile app with Flutter</li>
+                        <li>Integrated AI-generated fitness and meal planning features</li>
+                        <li>Implemented user accounts, subscriptions, and backend data storage</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Supabase</span>
+                        <span>RevenueCat</span>
+                        <span>Google Cloud</span>
+                        <span>JSON</span>
+                    </div>
                 </div>
+
+                <!-- Emotion Detection -->
                 <div class="project-card">
-                    <h3>Body Flow Ai</h3>
-                    <div class="date">
-                        <p>January 2024 - Present</p>
+                    <div class="project-top">
+                        <div>
+                            <span class="project-badge">Machine Learning</span>
+                            <h3>Emotion Detection Model</h3>
+                        </div>
+                        <i class="fas fa-brain project-icon"></i>
                     </div>
-                    <p>BodyFlow AI is a cutting-edge fitness application that can be downloaded from both the Google Play Store and App Store, created to personalize your fitness journey 
-                        using AI technology. It creates customized exercise schedules and dietary plans according to your likes and the gym equipment you have 
-                        access to. The AI assistant provides engaging assistance, helping you stay motivated and on target with advice on fitness and nutrition. The app features: </p>
-                    <p><b>Customized experience:</b> Specifically designed meal and exercise plans that match your dietary requirements and fitness objectives.</p>
-                    <p><b>AI Chat Assistant:</b> Receive guidance, inspiration, and solutions for your health and fitness inquiries from an intelligent AI friend.</p>
-                    <p><b>Customize your account:</b> Easily modify settings, monitor your progress, and personalize your experience with a user-friendly interface.</p>
-                    <p><b>Memberships:</b> Gain entry to exclusive content and functionalities through versatile subscription choices.</p>
-                    <p><b>AI-Generated Plans:</b> Algorithms adjust as you progress, making sure your meal and exercise plans are continuously optimized.</p>
-                    <h5>Flutter, Supabase, Revenuecat, Google cloud, JSON</h5>
+
+                    <p class="project-date">September 2023 – January 2024</p>
+
+                    <p class="project-summary">
+                        Trained a facial emotion recognition model that reached 81% classification accuracy.
+                    </p>
+
+                    <ul class="project-points">
+                        <li>Used FER2013 facial expression dataset</li>
+                        <li>Improved model performance using PCA and GridSearchCV</li>
+                        <li>Implemented deep learning model with Keras and TensorFlow</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Keras</span>
+                        <span>TensorFlow</span>
+                        <span>FER2013</span>
+                    </div>
                 </div>
+
+                <!-- Course Showcase -->
+                <div class="project-card">
+                    <div class="project-top">
+                        <div>
+                            <span class="project-badge">Web Platform</span>
+                            <h3>Course Showcase</h3>
+                        </div>
+                        <i class="fas fa-laptop-code project-icon"></i>
+                    </div>
+
+                    <p class="project-date">May 2023 – September 2023</p>
+
+                    <p class="project-summary">
+                        Web platform for browsing, previewing, and accessing course website templates.
+                    </p>
+
+                    <ul class="project-points">
+                        <li>Created interactive previews for website templates</li>
+                        <li>Organized template details, use cases, and quick-start options</li>
+                        <li>Focused on usability and clear information structure</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>WordPress</span>
+                    </div>
+                </div>
+
+                <!-- Flame Saber -->
+                <div class="project-card">
+                    <div class="project-top">
+                        <div>
+                            <span class="project-badge">Game Development</span>
+                            <h3>Flame Saber</h3>
+                        </div>
+                        <i class="fas fa-gamepad project-icon"></i>
+                    </div>
+
+                    <p class="project-date">October 2025 – December 2025</p>
+
+                    <p class="project-summary">
+                        Fast-paced Unreal Engine combat game focused on enemy waves, blocking, and combo-based fighting.
+                    </p>
+
+                    <ul class="project-points">
+                        <li>Built combat mechanics including combos, blocking, and parries</li>
+                        <li>Designed AI-controlled enemy waves and difficulty progression</li>
+                        <li>Created a volcanic arena with dynamic environment elements</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>Unreal Engine 5.3</span>
+                        <span>Blueprints</span>
+                        <span>AI Systems</span>
+                        <span>Game Design</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Footer Section -->
     <footer id="footer">
-        <ul>
+        <ul id="footer-list">
             <li><a href="https://www.linkedin.com/in/joe-binns-1a51631a0/"><i class="fab fa-linkedin-in icon"></i></a></li>
             <li><a href="resume.pdf"><i class="fas fa-file icon"></i></a></li>
             <li><a href="mailto:joecravenbinns@gmail.com"><i class="fas fa-envelope icon"></i></a></li>
